@@ -1,0 +1,255 @@
+<div class="jumbotron text-center">
+	<div class="jumbotron-titre">Créez. Partagez. Donnez.</div>
+	<div class="jumbotron-texte">Devenez les créatrices et les égéries de nos collections et faites le bien autour de vous.</div>
+	</br>
+	</br>
+	</br>
+	<%= link_to root_path, class: "btn btn-danger btn-lg btn-jumbotron" do %>
+	EN SAVOIR PLUS
+	<% end %>
+</div>
+
+<section class="marque">
+	<div class="container">
+			<div class="row marque-titre text-center">
+				PARTICIPEZ A LA CREATION DE NOS COLLECTIONS
+			</div>
+			<div class="row marque-texte text-center">
+				Grâce à aglaïa & co, vous avez la possibilité de devenir créatice ou égérie de l'une de nos collection.</br>
+				Et vous, quel est votre talent?
+			</div>
+			<div class="row"> 
+				<div class="col-md-8 col-md-offset-2">
+				
+				<div class="col-md-6 nopadding">
+					<div class="thumbnail thumbnail3">
+ 	   				<div class="transparency"><%= link_to (image_tag("atelier.png")), root_path %></div>
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonmarque"><%= link_to root_path, class: "btn btn-danger btn-lg btn-marque" do %>
+							JE SUIS CRÉATRICE
+							<% end %>
+							</div>
+						</div>
+ 	   			</div>
+				</div>
+				<div class="col-md-6 nopadding">
+					<div class="thumbnail thumbnail3">
+ 	   				<div class="transparency"><%= link_to (image_tag("studio1.png")), root_path %></div>
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonmarque"><%= link_to root_path, class: "btn btn-danger btn-lg btn-marque" do %>
+							JE SUIS ÉGÉRIE
+							<% end %>
+							</div>
+						</div>
+ 	   			</div>
+				</div>
+
+			</div>
+			</div>
+	</div>
+</section>
+
+<section class="purity">
+	<div class="container">
+		<div class="row purity-titre text-right">
+			Chez aglaïa & co, élégance rime avec qualité.
+		</div>
+		<div class="row purity-texte text-right">
+			Nous utilisons uniquement des produits de très grande qualité dans la confection de nos bijoux.</br>
+			Toutes nos créations sont réalisées en France à partir de matières précieuses et semi-précieuses telles que l'argent massif, les pierres naturelles et les perles.</br> 
+			N'attendez plus pour venir les découvrir!
+		</div>
+		<div class="row purity-texte text-right">
+		<%= link_to root_path, class: "btn btn-danger btn-lg btn-jumbotron" do %>
+		START SHOPPING!
+		<% end %>
+		</div>
+	</div>
+</section>
+
+<section class="news">
+	<div class="container">
+			<div class="row news-titre text-center">
+				LES NOUVEAUTES AGLAIA & CO
+			</div>
+			<div class="row news-texte text-center">
+				Découvrez nos nouvelles créations printemps / été 2015
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-md-3">
+ 	   			<div class="thumbnail thumbnail3">
+ 	   				<%= link_to (image_tag("image21.jpg")), root_path %>
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							DETAILS
+							<% end %></div>
+ 	   					<div class="col-md-6 nopadding iconheart iconproduct"><i class="fa fa-heart fa-2x">&nbsp;</i></div>
+ 	   					<div class="col-md-6 nopadding iconcart iconproduct"><i class="fa fa-shopping-cart fa-2x">&nbsp;</i></div>
+ 	   				</div>	
+ 	   			</div>
+ 	   			<div class="caption text-center">
+ 	   				<div class="collection">SENTIMENTS CONTRAIRES</div>
+ 	   				<div class="description">Bracelet argent et hématite</div>
+ 	   				<div class="prix">69€</div>
+ 	   			</div>
+ 	   		</div>
+ 	   		<div class="col-xs-6 col-md-3">
+ 	   			<div class="thumbnail thumbnail3">
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							DETAILS
+							<% end %></div> 
+ 	   					<div class="col-md-6 nopadding iconheart iconproduct"><i class="fa fa-heart fa-2x">&nbsp;</i></div>
+ 	   					<div class="col-md-6 nopadding iconcart iconproduct"><i class="fa fa-shopping-cart fa-2x">&nbsp;</i></div>
+ 	   				</div>
+ 	   				<%= link_to (image_tag("image22.jpg")), root_path %>
+ 	   			</div>
+ 	   			<div class="caption text-center">
+ 	   				<div class="collection">ELEGANCE ETERNELLE</div>
+ 	   				<div class="description">Bracelet chalcedony</div>
+ 	   				<div class="prix">69€</div>
+ 	   			</div>
+ 	   		</div>
+ 	   		<div class="col-xs-6 col-md-3">
+ 	   			<div class="thumbnail thumbnail3">
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							DETAILS
+							<% end %></div>
+ 	   					<div class="col-md-6 nopadding iconheart iconproduct"><i class="fa fa-heart fa-2x">&nbsp;</i></div>
+ 	   					<div class="col-md-6 nopadding iconcart iconproduct"><i class="fa fa-shopping-cart fa-2x">&nbsp;</i></div>
+ 	   				</div>
+ 	   				<%= link_to (image_tag("image23.jpg")), root_path %>
+ 	   			</div>
+ 	   		<div class="caption text-center">
+	 	   				<div class="collection">CAPRICE PETILLANT</div>
+	 	   				<div class="description">Créoles multi-pierres</div>
+	 	   				<div class="prix">119€</div>
+ 	   		</div>
+ 	   		</div>
+ 	   		<div class="col-xs-6 col-md-3">
+ 	   			<div class="thumbnail thumbnail3">
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							DETAILS
+							<% end %></div>
+ 	   					<div class="col-md-6 nopadding iconheart iconproduct"><i class="fa fa-heart fa-2x">&nbsp;</i></div>
+ 	   					<div class="col-md-6 nopadding iconcart iconproduct"><i class="fa fa-shopping-cart fa-2x">&nbsp;</i></div>
+ 	   				</div>
+ 	   				<%= link_to (image_tag("image24.jpg")), root_path %>
+ 	   			</div>
+ 	   			<div class="caption text-center">
+ 	   				<div class="collection">CAPRICE PETILLANT</div>
+ 	   				<div class="description">Bracelet multi-pierres</div>
+ 	   				<div class="prix">72€</div>
+ 	   			</div>
+ 	   		</div>
+			</div>
+			<div class="row text-center">
+				<div class="row text-center margintop">
+					<%= link_to root_path, class: "btn btn-danger btn-lg btn-product2" do %>
+					TOUS LES PRODUITS
+					<% end %>
+				</div>
+			</div>
+	</div>
+</section>
+
+<section class="ethique">
+	<div class="container">
+		<div class="row ethique-titre">
+			Des bijoux pour améliorer des vies.
+		</div>
+		<div class="row ethique-texte">
+			Grâce à vos achats, vous contribuez directement à améliorer des vies.</br>
+			Nous nous impliquons grâce à vous et avec vous dans plusieurs actions humanitaires pour changer le monde.
+		</div>
+		<div class="row ethique-texte">
+		<%= link_to root_path, class: "btn btn-danger btn-lg btn-ethique" do %>
+		EN SAVOIR PLUS
+		<% end %>
+		</div>
+	</div>
+</section>
+
+
+<section class="community">
+	<div class="container">
+		<div class="row community-titre text-center">
+			NOTRE COMMUNAUTE
+		</div>
+		<div class="row community-texte text-center">
+			Plus de 500 personnes font déjà parties de la communauté, rejoignez nous!
+		</div>
+		<div class="row community-texte text-center margincommunity">
+			<%= link_to root_path, class: "btn btn-danger btn-lg btn-jumbotron" do %>
+			REJOINDRE
+			<% end %>
+		</div>
+	</div>
+	<div class="container-fluid">
+	<div class="row">
+	  <div class="col-xs-6 col-md-2 nopadding">
+ 	   <div class="thumbnail thumbnail2">
+      <%= link_to (image_tag("image1.jpg")), root_path %>
+  	 </div>
+  	</div>
+  	<div class="col-xs-6 col-md-2 nopadding">
+ 	   <div class="thumbnail thumbnail2">
+      <%= link_to (image_tag("image2.jpg")), root_path %>
+  	 </div>
+  	</div>
+  	<div class="col-xs-6 col-md-2 nopadding">
+ 	   <div class="thumbnail thumbnail2">
+      <%= link_to (image_tag("image3.jpg")), root_path %>
+  	 </div>
+  	</div>
+  	<div class="col-xs-6 col-md-2 nopadding">
+		 	    <div class="thumbnail thumbnail2">
+		        <%= link_to (image_tag("image4.jpg")), root_path %>
+		      </div>
+  	</div>
+  	<div class="col-xs-6 col-md-2 nopadding">
+		 	   <div class="thumbnail thumbnail2">
+		      <%= link_to (image_tag("image5.jpg")), root_path %>
+		  	 </div>
+  	</div>
+  	<div class="col-xs-6 col-md-2 nopadding">
+ 	   <div class="thumbnail thumbnail2">
+      <%= link_to (image_tag("image6.jpg")), root_path %>
+  	 </div>
+  	</div>
+	  <div class="col-xs-6 col-md-2 nopadding">
+ 	   <div class="thumbnail thumbnail2">
+      <%= link_to (image_tag("image7.jpg")), root_path %>
+  	 </div>
+  	</div>
+  	<div class="col-xs-6 col-md-2 nopadding">
+ 	   <div class="thumbnail thumbnail2">
+      <%= link_to (image_tag("image8.jpg")), root_path %>
+  	 </div>
+  	</div>
+  	<div class="col-xs-6 col-md-2 nopadding">
+ 	   <div class="thumbnail thumbnail2">
+      <%= link_to (image_tag("image9.jpg")), root_path %>
+  	 </div>
+  	</div>
+  	<div class="col-xs-6 col-md-2 nopadding">
+ 	   <div class="thumbnail thumbnail2">
+      <%= link_to (image_tag("image10.jpg")), root_path %>
+  	 </div>
+  	</div>
+  	<div class="col-xs-6 col-md-2 nopadding">
+ 	   <div class="thumbnail thumbnail2">
+      <%= link_to (image_tag("image1.jpg")), root_path %>
+  	 </div>
+  	</div>
+  	<div class="col-xs-6 col-md-2 nopadding">
+ 	   <div class="thumbnail thumbnail2">
+      <%= link_to (image_tag("image1.jpg")), root_path %>
+  	 </div>
+  	</div>
+ </div>
+
+	</div>
+</section>
