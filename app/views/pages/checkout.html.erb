@@ -1,0 +1,186 @@
+<section class="panier">
+	<div class="container">
+		
+		<div class="col-md-12 tunnel2 nopadding">
+			
+			<div class="tunnel inline marginright done">
+			1. Panier
+			</div>
+			<div class="inline marginright">
+			>
+			</div>
+			<div class="tunnel inline marginright current">
+			2. Livraison
+			</div>
+			<div class="inline marginright">
+			>
+			</div>
+			<div class="tunnel inline marginright todo">
+			3. Paiement
+			</div>
+			<div class="inline marginright">
+			>
+			</div>
+			<div class="tunnel inline marginright todo">
+			4. Confirmation
+			</div>
+
+		</div>
+		
+		<div class="col-md-8 livraison">
+		
+			<div class="col-md-12 titre">Livraison</div>
+
+			<div class="col-md-6 form-group">
+			<div>Prénom*</div>
+       <input type="text" class="form-control border-livraison" placeholder=""></input>
+      </div>
+
+      <div class="col-md-6 form-group">
+      	<div>Nom*</div>
+       <input type="text" class="form-control border-livraison" placeholder=""></input>
+      </div>
+
+      <div class="col-md-6 form-group">
+			<div>Adresse*</div>
+       <input type="text" class="form-control border-livraison" placeholder=""></input>
+      </div>
+
+      <div class="col-md-6 form-group">
+      	<div>Complément d'adresse</div>
+       <input type="text" class="form-control border-livraison" placeholder=""></input>
+      </div>
+
+      <div class="col-md-6 form-group">
+			<div>Code postal*</div>
+       <input type="text" class="form-control border-livraison" placeholder=""></input>
+      </div>
+
+      <div class="col-md-6 form-group">
+			<div>Région</div>
+       <input type="text" class="form-control border-livraison" placeholder=""></input>
+      </div>
+
+      <div class="col-md-6 form-group">
+      	<div>Ville*</div>
+       <input type="text" class="form-control border-livraison" placeholder=""></input>
+      </div>
+
+      <div class="col-md-6 form-group">
+      	<div>Pays*</div>
+       <input type="text" class="form-control border-livraison" placeholder=""></input>
+      </div>
+
+      <div class="col-md-6 form-group">
+			<div>Adresse email*</div>
+       <input type="text" class="form-control border-livraison" placeholder=""></input>
+      </div>
+
+      <div class="col-md-6 form-group">
+      	<div>Téléphone</div>
+       <input type="text" class="form-control border-livraison" placeholder=""></input>
+      </div>
+
+      <div class="col-md-12 form-group">
+	      <form action="demo_form.asp" method="get">
+	  			<input type="checkbox" name="vehicle" value="Bike">&nbsp;&nbsp;&nbsp;Faire de cette adresse mon adresse de livraison par défaut
+	  		</form>
+	  	</div>
+ 			
+ 			<div class="col-md-12 form-group bouttoncheckout">
+		  	<%= link_to root_path, class: "btn btn-danger btn-lg btn-checkout" do %>
+				CONTINUER
+				<% end %>
+			</div>
+
+			<div class="col-md-12 titre2">Besoin d'aide ?</div>
+			<div class="col-md-12 marginbottom">Pour toute question sur votre commande en cours, n'hésitez pas à contacter notre service client. Nous sommes là pour vous aider.</div>
+			<div class="col-md-12 marginbottom">
+				<div class="col-md-4"> 
+					<div class="text-center borderaide">
+						<i class="fa fa-phone"></i>
+						<div class="titre3">APPELEZ NOUS</div>
+						<div>09 84 02 02 36</div>
+					</div>
+				</div>
+				<div class="col-md-4"> 
+					<div class="text-center borderaide">
+						<i class="fa fa-twitter"></i>
+						<div class="titre3">TWITTEZ NOUS</div>
+						<div>@aglaiaco</div>
+					</div>
+				</div>
+				<div class="col-md-4"> 
+					<div class="text-center borderaide">
+						<i class="fa fa-envelope"></i>
+						<div class="titre3">ENVOYEZ UN EMAIL</div>
+						<div>hello@aglaiaco.com</div>
+					</div>
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+		<div class="col-md-4 nopadding">
+			
+			<div class="col-md-12 recap nopaddingright">
+				
+				<div class="titre">Récapitulatif de ma commande</div>
+				
+				<div class="col-md-12 nopadding recapproduit">
+					<div class="col-md-3 nopadding">
+						<div class="thumbnail thumbnail4">
+	 	   				<%= link_to (image_tag("image21.jpg")), root_path %>
+	 	   			</div>
+					</div>
+					
+					<div class="col-md-9 descriptionrecap">
+						<div>Bracelet argent et hématite</div>
+						<div>Taille: 25cm, Rouge, 72.00€, Qté: 1</div>
+					</div>
+				</div>
+				<div class="col-md-12 nopadding recapproduit">
+					<div class="col-md-3 nopadding">
+						<div class="thumbnail thumbnail4">
+	 	   				<%= link_to (image_tag("image21.jpg")), root_path %>
+	 	   			</div>
+					</div>
+					
+					<div class="col-md-9 descriptionrecap">
+						<div>Bracelet argent et hématite</div>
+						<div>Taille: 25cm, Rouge, 72.00€, Qté: 1</div>
+					</div>
+				</div>
+			
+				<div class="col-md-12 nopadding recapproduit2">
+					<div class="col-md-6 nopadding">Sous-total</div>
+					<div class="col-md-6 nopadding text-right">144.00€</div>
+					<div class="col-md-6 nopadding">Frais de livraison</div>
+					<div class="col-md-6 nopadding text-right">0.00€</div>
+				</div>
+
+				<div class="col-md-12 nopadding recapproduit3">
+					<div class="col-md-8 nopadding">TOTAL DE MA COMMANDE</div>
+					<div class="col-md-4 nopadding text-right">144.00€</div>
+				</div>
+
+				<div class="col-md-12 nopadding recapproduit4">Modifier ma commande</div>
+
+			</div>
+			
+			<div class="col-md-12 recap nopaddingright">
+				<div class="titre">Nos engagements</div>
+				<div class="col-md-12 nopadding engagement"><i class="fa fa-expeditedssl">&nbsp;&nbsp;</i>Paiement SSL sécurisé</div>
+				<div class="col-md-12 nopadding engagement"><i class="fa fa-truck">&nbsp;&nbsp;</i>Livraison en 5 jours garantie</div>
+				<div class="col-md-12 nopadding engagement"><i class="fa fa-heart">&nbsp;&nbsp;</i>Satisfait ou remboursé</div>
+				<div class="col-md-12 nopadding engagement"><i class="fa fa-mail-reply">&nbsp;&nbsp;</i>Retour sous 30 jours gratuit</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</section>

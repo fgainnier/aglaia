@@ -1,5 +1,21 @@
 Rails.application.routes.draw do
   
+  get 'pages/panier'
+
+  get 'pages/atelier'
+
+  get 'pages/studio'
+
+  get 'pages/ethique'
+
+  get 'pages/communaute'
+
+  get 'pages/blog'
+
+  get 'pages/checkout'
+
+  get 'pages/profil'
+
   root "pages#home"
 
   # The priority is based upon order of creation: first created -> highest priority.
