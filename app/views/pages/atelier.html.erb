@@ -1,2 +1,97 @@
-<h1>Pages#atelier</h1>
-<p>Find me in app/views/pages/atelier.html.erb</p>
+<div class="jumbotron jumbotron-atelier text-center">
+	<div class="jumbotron-titre">Participez à la création</br> de nos futures collections.</div>
+	</br>
+	</br>
+	</br>
+	<%= link_to root_path, class: "btn btn-danger btn-lg btn-atelier" do %>
+	PARTICIPER
+	<% end %>
+</div>
+
+<section class="atelierwork">
+<div class="container">
+	<div class="row atelier-titre text-center">
+				COMMENT ÇA MARCHE?
+	</div>
+	<div class="col-md-12">
+		<div class="col-md-4 text-center">
+			<div class="icon"><i class="fa fa-file-image-o fa-2x"></i></div>
+			<div class="titre">Proposez votre design</div>
+			<div class="texte">Proposez votre design pour la nouvelle collection en fonction de la thématique proposée</div>
+		</div>
+		<div class="col-md-4 text-center">
+			<div class="icon"><i class="fa fa-check-square-o fa-2x"></i></div>
+			<div class="titre">Participez au vote</div>
+			<div class="texte">Votez pour votre design préféré pour chacune des collections en cours de création</div>
+		</div>
+		<div class="col-md-4 text-center">
+			<div class="icon"><i class="fa fa-pencil-square-o fa-2x"></i></div>
+			<div class="titre">Devenez créatrice</div>
+			<div class="texte">La gagnante de chaque concours vient confectionner sa collection avec notre équipe de designers</div>
+		</div>
+	</div>
+</div>
+</section>
+
+<section class="citation">
+	<div class="container">
+		<div class="col-md-12">
+				<div class="titre">Designers are meant to be loved, not to be understood.</div>
+				</br>
+				<div class="texte">- MARGARET OSCAR</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="concours">
+	<div class="container">
+		<div class="col-md-12">
+			<div class="row atelier-titre text-center">
+				CHOISISSEZ VOTRE COLLECTION
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail thumbnail3">
+ 	   				<%= link_to (image_tag("eteindien.jpg")), root_path %>
+ 	   					<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit1"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							PARTICIPER
+							<% end %></div>
+ 	   				</div>	
+ 	   				</div>
+ 	   				<div class="caption">
+	 	   				<div class="phasein"><i class="fa fa-clock-o"></i>&nbsp;&nbsp;Encore 10 jours pour proposer vos designs!</div>
+	 	   				<div class="phaseout"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Les votes débutent dans 10 jours.</div>
+	 	   			</div>
+ 	   	</div>
+			<div class="col-md-4">
+				<div class="thumbnail thumbnail3">
+ 	   				<%= link_to (image_tag("illuminationdoree.jpg")), root_path %>
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit1"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							VOTER
+							<% end %></div>
+ 	   				</div>	
+ 	   				</div>
+ 	   				<div class="caption">
+	 	   				<div class="phaseout"><i class="fa fa-check-square-o"></i>&nbsp;&nbsp;Le processus de création est terminé.</div>
+	 	   				<div class="phasein"><i class="fa fa-clock-o"></i>&nbsp;&nbsp;Il vous reste 10 jours pour voter!</div>
+	 	   			</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail thumbnail3">
+ 	   				<%= link_to (image_tag("viree.jpg")), root_path %>
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit1"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							A VENIR LE 15/09/15
+							<% end %></div>
+ 	   				</div>
+ 	   				</div>	
+ 	   				<div class="caption">
+	 	   				<div class="phaseout"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Proposez vos designs dans 10 jours.</div>
+	 	   				<div class="phaseout"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Les votes débutent dans 25 jours!</div>
+	 	   			</div>
+			</div>
+		</div>
+	</div>
+</section>

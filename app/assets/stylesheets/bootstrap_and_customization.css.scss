@@ -248,11 +248,21 @@ a:hover {
 	border-color: #000000;
 }
 
-.jumbotron {
+.jumbotron-homepage {
 	 background-image: url(image_path('jumbotron.png'));
 	 background-size: cover;
    background-repeat: no-repeat;
    background-position: 0% 30%;
+   height: 550px;
+   padding-top: 180px;
+   margin-bottom: 0px;
+} 
+
+.jumbotron-atelier {
+	 background-image: url(image_path('atelier2.jpg'));
+	 background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 0% 70%;
    height: 550px;
    padding-top: 180px;
    margin-bottom: 0px;
@@ -1066,4 +1076,112 @@ a:hover {
 	height:28px;
 	padding-top: 5px;
 	border-radius: 0px;
+}
+
+.atelierwork .titre {
+	font-family: 'Merriweather';
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.atelierwork {
+	padding: 70px 0 70px 0;
+}
+
+
+.citation {
+	background-image: url(image_path('Wine.png'));
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  height: 300px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 120px 0 70px 0;
+}
+
+.btn-atelier {
+	width: 170px;
+	height: 50px;
+	font-size: 12px;
+	font-weight: 40px;
+	letter-spacing: 2px;
+	font-family: 'Montserrat';
+	background-color: transparent;
+	border-color: #000000;
+	border-width: 3px;
+	color: #000000;
+	padding-top: 14px;
+}
+
+.btn-atelier:hover {
+	width: 170px;
+	height: 50px;
+	font-size: 12px;
+	font-weight: 40px;
+	letter-spacing: 2px;
+	font-family: 'Montserrat';
+	background-color: #000000;
+	border-color: #000000;
+	border-width: 3px;
+	color: #FFFFFF;
+	padding-top: 14px;
+}
+
+.citation .titre {
+	font-family: 'Merriweather';
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.citation .texte {
+	letter-spacing: 1px;
+	font-family: 'Montserrat';
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.concours {
+	padding: 70px 0 70px 0;
+}
+
+.concours .bouttonproduit1 {
+	padding: 110px 0 20px 0;
+	text-align: center;
+}
+
+.concours .bouttonproduit2 {
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+
+.concours .btn-product {
+	width: 200px;
+}
+
+.point {
+	padding-bottom: 5px;
+}
+
+.atelierwork .icon {
+	color: #DEDEDE	;
+	padding-bottom: 20px;
+}
+
+
+.atelier-titre {
+	font-family: 'Montserrat', 'Merriweather';
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: 400;
+	padding-bottom: 50px;
+}
+
+.phasein {
+	font-weight: bold;
+}
+
+.phaseout {
+	font-weight: bold;
+	color: #DEDEDE;
 }
