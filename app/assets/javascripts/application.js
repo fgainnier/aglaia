@@ -26,5 +26,3 @@
             $(this).find('.caption').slideUp(250); //.fadeOut(205)
         }
     ); 
-
-    $('.label-with-popover').popover(placement: 'right')
