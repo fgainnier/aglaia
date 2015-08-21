@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   
+  get 'pages/enregistrement'
+
+  get 'pages/connexion'
+
   get 'pages/panier'
 
   get 'pages/atelier'

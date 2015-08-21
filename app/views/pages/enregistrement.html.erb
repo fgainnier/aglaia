@@ -1,0 +1,85 @@
+<section class="connexion">
+	<div class="container">
+		<div class="col-md-12 connexiontitre nopadding">
+			<div class="inline connexiontitre2">Créer un compte</div>
+		</div>
+		<div class="col-md-8 nopadding">
+			<div class="col-md-12 nopadding form-group">
+				<div class="subtitle">Email* :</div>
+	      <input type="text" class="form-control border-connexion" placeholder=""></input>
+      </div>
+      <div class="col-md-6 nopadding form-group">
+				<div class="subtitle">Mot de passe* :</div>
+	      <input type="text" class="form-control border-connexion" placeholder=""></input>
+      </div>
+      <div class="col-md-6 nopadding form-group">
+				<div class="subtitle">Confirmation du mot de passe* :</div>
+	      <input type="text" class="form-control border-connexion" placeholder=""></input>
+      </div>
+      <div class="col-md-6 nopadding form-group">
+				<div class="subtitle">Prénom :</div>
+	      <input type="text" class="form-control border-connexion" placeholder=""></input>
+      </div>
+      <div class="col-md-6 nopadding form-group">
+				<div class="subtitle">Nom :</div>
+	      <input type="text" class="form-control border-connexion" placeholder=""></input>
+      </div>
+      <div class="col-md-6 nopadding form-group">
+				<div class="subtitle">
+					<div class="col-md-6 nopadding">Genre :</div>
+					<div class="col-md-6 nopadding text-right"><i class="fa fa-info-circle"></i></div>
+				</div>
+	      <input type="text" class="form-control border-connexion" placeholder=""></input>
+      </div>
+      <div class="col-md-6 nopadding form-group">
+				<div class="subtitle">
+					<div class="col-md-6 nopadding">Date de naissance :</div>
+					<div class="col-md-6 nopadding text-right"><i class="fa fa-info-circle"></i></div>
+				</div>
+	      <input type="text" class="form-control border-connexion" placeholder=""></input>
+      </div>
+      <div class="col-md-6 nopadding form-group">
+				<div class="subtitle">
+					<div class="col-md-6 nopadding">Code postal :</div>
+					<div class="col-md-6 nopadding text-right"><i class="fa fa-info-circle" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></i></div>
+				</div>
+	      <input type="text" class="form-control border-connexion" placeholder=""></input>
+      </div>
+      <div class="col-md-12 agree">
+	  		<div class="checkbox">
+			    <label>
+			      <input type="checkbox">J'accepte de recevoir les informations concernant les prochains évènements d'Aglaïa & Co, les prochaines bonnes actions ainsi que toutes informations concernant les nouveaux produits et offres promotionnelles.
+			    </label>
+			  </div>
+      </div>
+      <div class="col-md-12 nopadding signupbouton">
+				<div class="inline">
+					<%= link_to root_path, class: "btn btn-danger btn-lg btn-panier1" do %>
+					CREER UN COMPTE
+					<% end %>
+				</div>
+			</div>
+			<div class="col-md-12 nopadding conditions">
+				En créant un compte, vous acceptez les <a href="#" class="underline">conditions générales</a> et la <a href="#" class="underline">politique de confidentialité</a> de Aglaïa & Co.
+			</div>
+    </div>
+    <div class="col-md-4 nopadding">
+			<div class="titresignup">REJOIGNEZ LE MOUVEMENT</div>
+			<div class="textesignup">Créez votre compte et profitez des avantages suivant:</div>
+			<ul class="ulsignup">
+					<li>Payer plus rapidement</li>
+					<li>Sauvegarder vos créations favorites</li>
+					<li>Etre tenu au courant l'actualité de Aglaia & Co</li>
+					<li>Participer aux concours de création et d'égérie</li>
+					<li>Participer aux évènements Aglaia & Co</li>
+					<li>Participer aux bonnes actions Aglaia & Co</li>
+			</ul>
+			<div class="photosignup">
+				<div class="thumbnail thumbnail3">
+ 	   				<%= link_to (image_tag("signup.jpg")), root_path %>
+ 	   		</div>
+			</div>
+			</div>
+		</div>
+  </div>
+</section>

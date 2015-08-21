@@ -1,0 +1,49 @@
+<section class="connexion">
+	<div class="container">
+		<div class="col-md-12 connexiontitre nopadding">
+			<div class="inline connexiontitre2">Connexion</div>
+		</div>
+		<div class="col-md-4 nopadding">
+			<div class="titre">Membre de la communauté</div>
+			<div class="col-md-12 nopadding form-group">
+				<div class="subtitle">Email :</div>
+	      <input type="text" class="form-control border-connexion" placeholder=""></input>
+      </div>
+      <div class="col-md-12 nopadding form-group">
+				<div class="subtitle">Mot de passe :</div>
+	      <input type="text" class="form-control border-connexion" placeholder=""></input>
+      </div>
+      <div class="col-md-12 nopadding connexionbouton">
+			<div class="inline">
+				<%= link_to root_path, class: "btn btn-danger btn-lg btn-panier1" do %>
+				SE CONNECTER
+				<% end %>
+			</div>
+			<div class="col-md-12 nopadding oubli">
+				Vous avez oublié votre mot de passe?
+			</div>
+		</div>
+		</div>
+		<div class="col-md-5 nopadding paddingleft">
+			<div class="titre">Utiliser les réseaux sociaux</div>
+			<div class="col-md-12 nopadding form-group">
+				<div class="subtitle">Connectez vous plus rapidement avec l'un des</br> réseaux sociaux ci-dessous:</div>
+      </div>
+      <div class="col-md-12 nopadding">
+				<div class="inline"><i class="fa fa-facebook-square fa-3x"></i></div>
+				<div class="socialbox"><i class="fa fa-twitter-square fa-3x"></i></div>
+				<div class="socialbox"><i class="fa fa-google-plus-square fa-3x"></i></div>
+				<div class="socialbox"><i class="fa fa-instagram fa-3x"></i></div>
+			</div>
+		</div>
+		<div class="col-md-3 nopadding">
+			<div class="titre">Nouveau membre</div>
+			<div class="col-md-12 nopadding connexionbouton1">
+			<div class="inline">
+				<%= link_to root_path, class: "btn btn-danger btn-lg btn-panier1" do %>
+				CREER UN COMPTE
+				<% end %>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class PagesControllerTest < ActionController::TestCase
-  test "should get panier" do
-    get :panier
+  test "should get enregistrement" do
+    get :enregistrement
     assert_response :success
   end
 

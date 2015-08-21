@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-  def panier
+  def enregistrement
   end
 end
