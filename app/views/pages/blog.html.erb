@@ -1,2 +1,166 @@
-<h1>Pages#blog</h1>
-<p>Find me in app/views/pages/blog.html.erb</p>
+<div class="jumbotron jumbotron-blog text-center">
+	<div class="jumbotron-blog-titre">BLOG</div>
+	<div class="jumbotron-blog-texte">Nos histoires sont aussi les vôtres.</div>
+</div>
+
+<section class="search">
+	<div class="container">	
+			<div class="col-md-4 nopadding paddingtopselect text-center">		
+				<div class="form-group has-feedback">
+				<input type="email" class="form-blog" id="exampleInputEmail1" placeholder="RECHERCHER	">
+				<i class="fa fa-search form-control-feedback"></i>
+				</div>
+			</div>
+			<div class="col-md-4 nopadding paddingtopselect text-center">		
+					<div class="btn-group">
+					  <button type="button" class="btn btn-filter dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    <div class="col-md-6 nopadding text-left">CATEGORIES</div> 
+					    <div class="col-md-6 nopadding text-right"><span class="caret"></span></div>
+					  </button>
+					  <ul class="dropdown-menu">
+					    <li><a href="#">Mode</a></li>
+					    <li><a href="#">Tendances</a></li>
+					    <li><a href="#">Ethique</a></li>
+					    <li><a href="#">Events</a></li>
+					    <li><a href="#">Culture</a></li>
+					    <li><a href="#">Tips</a></li>
+					    <li><a href="#">Inspiration</a></li>
+					  </ul>
+					</div>
+			</div>
+			<div class="col-md-4 nopadding paddingtopselect text-center">	
+					<div class="btn-group">
+					  <button type="button" class="btn btn-filter dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    <div class="col-md-6 nopadding text-left">TRIER PAR MOIS</div> 
+					    <div class="col-md-6 nopadding text-right"><span class="caret"></span></div>
+					  </button>
+					  <ul class="dropdown-menu">
+					    <li><a href="#">Août 2015 (10)</a></li>
+					    <li><a href="#">July 2015 (5)</a></li>
+					    <li><a href="#">June 2015 (3)</a></li>
+					    <li><a href="#">May 2015 (12)</a></li>
+					  </ul>
+					</div>
+			</div>
+	</div>
+</section>
+
+
+<section class="blog">
+	<div class="container">	
+		
+		<div class="col-md-8 post-large nopadding">
+			<div class="thumbnail thumbnail6-large">
+ 	   				<%= link_to (image_tag("atelier2.jpg")), root_path %>
+ 	   	</div>
+ 	   	<div class="col-md-12 post-titre-large">LOREM IPSUM</div>
+ 				<div class="col-md-12 post-texte-large">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</div>
+ 				<div class="col-md-12 post-social">
+			  	<ul class="social-icons icon-circle icon-zoom list-unstyled list-inline"> 
+			      <li> <a href="#"><i class="fa fa-facebook"></i></a></li>  
+			      <li> <a href="#"><i class="fa fa-twitter"></i></a></li> 
+			      <li> <a href="#"><i class="fa fa-google-plus"></i></a></li> 
+			  	</ul>
+ 				</div>
+ 				<div class="col-md-4 col-md-offset-4 post-categorie-tendances">
+ 					TENDANCES	
+ 				</div>
+		</div>
+		<div class="col-md-4 nopadding padding-post-small-right">
+			<div class="col-md-12 post-small1 nopadding">
+				<div class="thumbnail thumbnail6-small">
+ 	   				<%= link_to (image_tag("blog.jpg")), root_path %>
+ 	   		</div>
+ 	   		<div class="col-md-12 post-titre-small">LOREM IPSUM</div>
+ 				<div class="col-md-12 post-texte-small">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</div>
+ 				<div class="col-md-12 post-social">
+			  	<ul class="social-icons icon-circle icon-zoom list-unstyled list-inline"> 
+			      <li> <a href="#"><i class="fa fa-facebook"></i></a></li>  
+			      <li> <a href="#"><i class="fa fa-twitter"></i></a></li> 
+			      <li> <a href="#"><i class="fa fa-google-plus"></i></a></li> 
+			  	</ul>
+ 				</div>
+ 				<div class="col-md-8 col-md-offset-2 post-categorie-tendances">
+ 					TENDANCES	
+ 				</div>
+			</div>
+			<div class="col-md-12 post-small2 nopadding">
+				<div class="thumbnail thumbnail6-small">
+ 	   				<%= link_to (image_tag("blog.jpg")), root_path %>
+ 	   		</div>
+ 	   		<div class="col-md-12 post-titre-small">LOREM IPSUM</div>
+ 				<div class="col-md-12 post-texte-small">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</div>
+ 				<div class="col-md-12 post-social">
+			  	<ul class="social-icons icon-circle icon-zoom list-unstyled list-inline"> 
+			      <li> <a href="#"><i class="fa fa-facebook"></i></a></li>  
+			      <li> <a href="#"><i class="fa fa-twitter"></i></a></li> 
+			      <li> <a href="#"><i class="fa fa-google-plus"></i></a></li> 
+			  	</ul>
+ 				</div>
+ 				<div class="col-md-8 col-md-offset-2 post-categorie-ethique">
+ 					ETHIQUE	
+ 				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4 nopadding padding-post-small-left">
+			<div class="col-md-12 post-small1 nopadding">
+				<div class="thumbnail thumbnail6-small">
+ 	   				<%= link_to (image_tag("blog.jpg")), root_path %>
+ 	   		</div>
+ 	   		<div class="col-md-12 post-titre-small">LOREM IPSUM</div>
+ 				<div class="col-md-12 post-texte-small">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</div>
+ 				<div class="col-md-12 post-social">
+			  	<ul class="social-icons icon-circle icon-zoom list-unstyled list-inline"> 
+			      <li> <a href="#"><i class="fa fa-facebook"></i></a></li>  
+			      <li> <a href="#"><i class="fa fa-twitter"></i></a></li> 
+			      <li> <a href="#"><i class="fa fa-google-plus"></i></a></li> 
+			  	</ul>
+ 				</div>
+ 				<div class="col-md-8 col-md-offset-2 post-categorie-tendances">
+ 					TENDANCES	
+ 				</div>
+			</div>
+			<div class="col-md-12 post-small2 nopadding">
+				<div class="thumbnail thumbnail6-small">
+ 	   				<%= link_to (image_tag("blog.jpg")), root_path %>
+ 	   		</div>
+ 	   		<div class="col-md-12 post-titre-small">LOREM IPSUM</div>
+ 				<div class="col-md-12 post-texte-small">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</div>
+ 				<div class="col-md-12 post-social">
+			  	<ul class="social-icons icon-circle icon-zoom list-unstyled list-inline"> 
+			      <li> <a href="#"><i class="fa fa-facebook"></i></a></li>  
+			      <li> <a href="#"><i class="fa fa-twitter"></i></a></li> 
+			      <li> <a href="#"><i class="fa fa-google-plus"></i></a></li> 
+			  	</ul>
+ 				</div>
+ 				<div class="col-md-8 col-md-offset-2 post-categorie-ethique">
+ 					ETHIQUE	
+ 				</div>
+			</div>
+		</div>
+		<div class="col-md-8 post-large nopadding">
+			<div class="thumbnail thumbnail6-large">
+ 	   				<%= link_to (image_tag("atelier2.jpg")), root_path %>
+ 	   	</div>
+ 	   	<div class="col-md-12 post-titre-large">LOREM IPSUM</div>
+ 				<div class="col-md-12 post-texte-large">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</div>
+ 				<div class="col-md-12 post-social">
+			  	<ul class="social-icons icon-circle icon-zoom list-unstyled list-inline"> 
+			      <li> <a href="#"><i class="fa fa-facebook"></i></a></li>  
+			      <li> <a href="#"><i class="fa fa-twitter"></i></a></li> 
+			      <li> <a href="#"><i class="fa fa-google-plus"></i></a></li> 
+			  	</ul>
+ 				</div>
+ 				<div class="col-md-4 col-md-offset-4 post-categorie-tendances">
+ 					TENDANCES	
+ 				</div>
+		</div>
+
+		<div class="col-md-12 nopadding olderpost">
+			<i class="fa fa-arrow-left">&nbsp;&nbsp;</i>
+			Posts plus anciens
+		</div>
+
+	</div>
+</section>
