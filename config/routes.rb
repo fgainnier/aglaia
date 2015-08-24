@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'pages/productbis'
+
   get 'pages/product'
 
   get 'pages/products'

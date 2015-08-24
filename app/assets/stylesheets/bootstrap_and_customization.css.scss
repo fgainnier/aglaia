@@ -1892,3 +1892,145 @@ select:not([multiple]){
   -o-filter: grayscale(10%);
   filter: grayscale(10%);
 }
+
+.productbis {
+	background-color: #fbeff2;
+}
+
+.productbis2 {
+	padding: 50px 0 50px 0;
+}
+
+.thumbnail11 {
+	border:0px;
+	padding:0;
+	margin: 0 0 10px 0;
+	position:relative;
+	overflow:hidden;
+	border-radius: 0px;
+	background-color: #fbeff2;
+}
+
+.thumbnail12 {
+	border:0px;
+	padding: 320px 0 0 0;
+	margin: 0 0 0px 0;
+	position:relative;
+	overflow:hidden;
+	border-radius: 0px;
+	background-color: #fbeff2;
+}
+
+.thumbnail12:hover {
+	border:0px;
+	padding: 320px 0 0 0;
+	margin: 0 0 0px 0;
+	position:relative;
+	overflow:hidden;
+	border-radius: 0px;
+	background-color: #fbeff2;
+	opacity:0.8; /* transparency */  
+  -webkit-filter: grayscale(10%);
+  -moz-filter: grayscale(10%);
+  -ms-filter: grayscale(10%);
+  -o-filter: grayscale(10%);
+  filter: grayscale(10%);
+}
+
+.prix2 {
+	font-size: 24px;
+	color: #757581;
+	padding: 0px 0 40px 0;
+}
+
+.boutton2 {
+	padding-left: 20px;
+	padding-top: 0;
+}
+
+.minus2 {
+	border: 1px solid;
+	border-color: #DEDEDE;
+	font-weight: bold;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.quantity-product2 {
+	border: 1px solid;
+	border-color: #DEDEDE;
+	font-weight: bold;
+	height: 50px;
+	width: 40px;
+	text-align: center;
+}
+
+.borderproductbis {
+	margin: 40px 0 40px 440px;
+	border-top: 2px solid;
+	border-color: #DEDEDE;
+	width: 50px;	
+}
+
+.description4 {
+	padding: 0px 0 10px 0;
+}
+
+.description4-titre {
+	font-size: 14px;
+	font-family: 'Montserrat';
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+}
+
+.description4-texte {
+	font-size: 14px;
+	font-family: 'Source sans pro';
+}
+
+.ethique2 {
+	 background-image: url(image_path('ethique2.png'));
+	 background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 0% 0%;
+   height: 350px;
+   padding-top: 70px;
+   margin-bottom: 0px;
+   opacity: 0.7;
+   -webkit-filter: grayscale(30%);
+  -moz-filter: grayscale(30%);
+  -ms-filter: grayscale(30%);
+  -o-filter: grayscale(30%);
+  filter: grayscale(10%);
+   color: #FFFFFF;
+}
+
+.ethique2-titre {
+	font-family: 'Merriweather';
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.ethique2-texte {
+	font-family: 'Source sans pro';
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+
+.news-titre2 {
+	font-family: 'Montserrat', 'Merriweather';
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+
+.service {
+	text-decoration: underline;
+	color: #3399CC;
+}
