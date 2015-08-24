@@ -1,0 +1,217 @@
+<section class="products">
+	<div class="container">
+		
+		<div class="col-md-12 productstitre nopadding">
+			<div class="col-md-6 nopadding">
+				<div class="inline paniertitre2">Tous les produits</div>
+				<div class="inline paniertitre5">All styles</div>
+			</div>
+			<div class="col-md-6 nopadding text-right paddingtopselect">
+				  <div class="btn-group">
+					  <button type="button" class="btn btn-filter dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    <div class="col-md-6 nopadding text-left">TRIER PAR</div> 
+					    <div class="col-md-6 nopadding text-right"><span class="caret"></span></div>
+					  </button>
+					  <ul class="dropdown-menu">
+					    <li><a href="#">Best Sellers</a></li>
+					    <li><a href="#">Nouveautés</a></li>
+					    <li><a href="#">Prix croissants</a></li>
+					    <li><a href="#">Prix décroissants</a></li>
+					  </ul>
+					</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 nopadding">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingOne">
+			      	<h4 class="panel-title inline filter">
+			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+			          TYPE
+			        </a>
+			      	</h4>
+			    		<h4 class="panel-title inline"><i class="fa fa-plus"></i></h4>
+			    </div>
+			    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+			      <div class="panel-body">
+			        <ul class="nodecoration">
+			        	<li class="listitem">Bracelets</li>
+			        	<li class="listitem">Colliers</li>
+			        	<li class="listitem">Sautoirs</li>
+			        	<li class="listitem">Boucles d'oreilles</li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingTwo">
+			      <h4 class="panel-title inline filter2">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          PRIX
+			        </a>
+			      </h4>
+			      <h4 class="panel-title inline"><i class="fa fa-plus"></i></h4>
+			    </div>
+			    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+			      <div class="panel-body">
+			        <ul class="nodecoration">
+			        	<li class="listitem">De 0 € à 39 €</li>
+			        	<li class="listitem">De 40 € à 69 €</li>
+			        	<li class="listitem">De 70 € à 99 €</li>
+			        	<li class="listitem">De 100 € à 129 €</li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
+			   <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingThree">
+			      <h4 class="panel-title inline filter3">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          COULEUR
+			        </a>
+			      </h4>
+			      <h4 class="panel-title inline"><i class="fa fa-plus"></i></h4>
+			    </div>
+			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+			      <div class="panel-body">
+			        <ul class="nodecoration">
+			        	<li class="listitem">Argent</li>
+			        	<li class="listitem">Bleu</li>
+			        	<li class="listitem">Vert</li>
+			        	<li class="listitem">Rouge</li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
+			   <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingFour">
+			      <h4 class="panel-title inline filter4">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+			          COLLECTION
+			        </a>
+			      </h4>
+			      <h4 class="panel-title inline"><i class="fa fa-plus"></i></h4>
+			    </div>
+			    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+			      <div class="panel-body">
+			        <ul class="nodecoration">
+			        	<li class="listitem">Signature</li>
+			        	<li class="listitem">Caprice pétillant</li>
+			        	<li class="listitem">Sentiments contraires</li>
+			        	<li class="listitem">Élégance éternelle</li>
+			        	<li class="listitem">Impression d'éclat</li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+		<div class="col-md-9 nopadding paddingproducts">
+			<div class="col-xs-6 col-md-4 productline">
+ 	   			<div class="thumbnail thumbnail3">
+ 	   				<%= link_to (image_tag("image21.jpg")), root_path %>
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							DETAILS
+							<% end %></div>
+ 	   					<div class="col-md-6 nopadding iconheart1 iconproduct"><i class="fa fa-heart fa-2x">&nbsp;</i></div>
+ 	   					<div class="col-md-6 nopadding iconcart1 iconproduct"><i class="fa fa-shopping-cart fa-2x">&nbsp;</i></div>
+ 	   				</div>	
+ 	   			</div>
+ 	   			<div class="caption text-center">
+ 	   				<div class="collection">SENTIMENTS CONTRAIRES</div>
+ 	   				<div class="description">Bracelet argent et hématite</div>
+ 	   				<div class="prix">69€</div>
+ 	   			</div>
+ 	   		</div>
+ 	   		<div class="col-xs-6 col-md-4 productline">
+ 	   			<div class="thumbnail thumbnail3">
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							DETAILS
+							<% end %></div> 
+ 	   					<div class="col-md-6 nopadding iconheart1 iconproduct"><i class="fa fa-heart fa-2x">&nbsp;</i></div>
+ 	   					<div class="col-md-6 nopadding iconcart1 iconproduct"><i class="fa fa-shopping-cart fa-2x">&nbsp;</i></div>
+ 	   				</div>
+ 	   				<%= link_to (image_tag("image22.jpg")), root_path %>
+ 	   			</div>
+ 	   			<div class="caption text-center">
+ 	   				<div class="collection">ELEGANCE ETERNELLE</div>
+ 	   				<div class="description">Bracelet chalcedony</div>
+ 	   				<div class="prix">69€</div>
+ 	   			</div>
+ 	   		</div>
+ 	   		<div class="col-xs-6 col-md-4 productline">
+ 	   			<div class="thumbnail thumbnail3">
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							DETAILS
+							<% end %></div>
+ 	   					<div class="col-md-6 nopadding iconheart1 iconproduct"><i class="fa fa-heart fa-2x">&nbsp;</i></div>
+ 	   					<div class="col-md-6 nopadding iconcart1 iconproduct"><i class="fa fa-shopping-cart fa-2x">&nbsp;</i></div>
+ 	   				</div>
+ 	   				<%= link_to (image_tag("image23.jpg")), root_path %>
+ 	   			</div>
+ 	   		<div class="caption text-center">
+	 	   				<div class="collection">CAPRICE PETILLANT</div>
+	 	   				<div class="description">Créoles multi-pierres</div>
+	 	   				<div class="prix">119€</div>
+ 	   		</div>
+ 	   		</div>
+ 	   		<div class="col-xs-6 col-md-4 productline">
+ 	   			<div class="thumbnail thumbnail3">
+ 	   				<%= link_to (image_tag("image21.jpg")), root_path %>
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							DETAILS
+							<% end %></div>
+ 	   					<div class="col-md-6 nopadding iconheart1 iconproduct"><i class="fa fa-heart fa-2x">&nbsp;</i></div>
+ 	   					<div class="col-md-6 nopadding iconcart1 iconproduct"><i class="fa fa-shopping-cart fa-2x">&nbsp;</i></div>
+ 	   				</div>	
+ 	   			</div>
+ 	   			<div class="caption text-center">
+ 	   				<div class="collection">SENTIMENTS CONTRAIRES</div>
+ 	   				<div class="description">Bracelet argent et hématite</div>
+ 	   				<div class="prix">69€</div>
+ 	   			</div>
+ 	   		</div>
+ 	   		<div class="col-xs-6 col-md-4 productline">
+ 	   			<div class="thumbnail thumbnail3">
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							DETAILS
+							<% end %></div> 
+ 	   					<div class="col-md-6 nopadding iconheart1 iconproduct"><i class="fa fa-heart fa-2x">&nbsp;</i></div>
+ 	   					<div class="col-md-6 nopadding iconcart1 iconproduct"><i class="fa fa-shopping-cart fa-2x">&nbsp;</i></div>
+ 	   				</div>
+ 	   				<%= link_to (image_tag("image22.jpg")), root_path %>
+ 	   			</div>
+ 	   			<div class="caption text-center">
+ 	   				<div class="collection">ELEGANCE ETERNELLE</div>
+ 	   				<div class="description">Bracelet chalcedony</div>
+ 	   				<div class="prix">69€</div>
+ 	   			</div>
+ 	   		</div>
+ 	   		<div class="col-xs-6 col-md-4 productline">
+ 	   			<div class="thumbnail thumbnail3">
+ 	   				<div class="caption" id="caption-down">
+ 	   					<div class="bouttonproduit"><%= link_to root_path, class: "btn btn-danger btn-lg btn-product" do %>
+							DETAILS
+							<% end %></div>
+ 	   					<div class="col-md-6 nopadding iconheart1 iconproduct"><i class="fa fa-heart fa-2x">&nbsp;</i></div>
+ 	   					<div class="col-md-6 nopadding iconcart1 iconproduct"><i class="fa fa-shopping-cart fa-2x">&nbsp;</i></div>
+ 	   				</div>
+ 	   				<%= link_to (image_tag("image23.jpg")), root_path %>
+ 	   			</div>
+ 	   		<div class="caption text-center">
+	 	   				<div class="collection">CAPRICE PETILLANT</div>
+	 	   				<div class="description">Créoles multi-pierres</div>
+	 	   				<div class="prix">119€</div>
+ 	   		</div>
+ 	   		</div>
+		</div>
+
+	</div>
+</section>

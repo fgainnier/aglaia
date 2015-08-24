@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'pages/products'
+
   get 'pages/enregistrement'
 
   get 'pages/connexion'

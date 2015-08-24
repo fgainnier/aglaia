@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-  def enregistrement
+  def products
   end
 end

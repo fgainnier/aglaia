@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
 //= require turbolinks
 //= require_tree .
 
@@ -26,3 +27,7 @@
             $(this).find('.caption').slideUp(250); //.fadeOut(205)
         }
     ); 
+
+    $(function () {
+  $('[data-toggle="popover"]').popover()
+})
