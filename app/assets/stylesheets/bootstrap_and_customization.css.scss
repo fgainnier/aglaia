@@ -953,7 +953,7 @@ a:hover {
 	width: 150px;
 }
 
-.table .prix2 {
+.table .prix2-0 {
 	witdh: 100px;
 	padding-top: 50px;
 }
@@ -967,6 +967,20 @@ a:hover {
 .table .description1-1 {
 	width: 350px;	
 	padding-top: 50px;
+	font-weight: normal;
+	color: #aaa8aa;
+	font-size: 13px;
+}
+
+.table .description1-0 {
+	width: 350px;	
+	padding-top: 40px;
+	font-weight: bold;
+}
+
+.table .description1-01 {
+	width: 350px;	
+	padding-top: 40px;
 	font-weight: normal;
 	color: #aaa8aa;
 	font-size: 13px;
