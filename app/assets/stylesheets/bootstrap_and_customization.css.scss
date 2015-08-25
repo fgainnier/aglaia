@@ -1619,7 +1619,7 @@ select:not([multiple]){
 .description-product2 {
 	border-bottom: 1px solid;
 	border-color: #DEDEDE;
-	padding: 20px 0 20px 0;
+	padding: 20px 0 0px 0;
 }
 
 .description-product3	 {
@@ -1648,7 +1648,7 @@ select:not([multiple]){
 .prix1 {
 	font-size: 24px;
 	color: #757581;
-	padding: 20px 0 20px 0;
+	padding: 0px 0 0px 0;
 }
 
 .minus {
@@ -2047,4 +2047,59 @@ select:not([multiple]){
 .service {
 	text-decoration: underline;
 	color: #3399CC;
+}
+
+.nav-tabs > li > a {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+	outline: none;
+	padding: 0px 15px 0px 0px;
+	margin-bottom: 5px;
+}
+
+.nav-tabs > li > a:hover {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	padding: 0px 15px 0px 0px;
+	margin-bottom: 5px;
+}
+
+.tab-pane {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+		border:0px;
+		border-color: #ddd;
+    outline:0;
+}
+
+.nav-tabs > li > a.liborderleft,
+.nav-tabs > li > a.liborderleft:hover,
+.nav-tabs > li > a.liborderleft:focus,
+.nav-tabs > li.active > a.liborderleft,
+.nav-tabs > li.active > a.liborderleft:hover,
+.nav-tabs > li.active > a.liborderleft:focus {
+	border-right: 1px solid;
+	border-color: #ddd;
+	padding-left: 10px;
+}
+
+.nav-tabs > li > a.liborderleft1,
+.nav-tabs > li > a.liborderleft1:hover,
+.nav-tabs > li > a.liborderleft1:focus,
+.nav-tabs > li.active > a.liborderleft1,
+.nav-tabs > li.active > a.liborderleft1:hover,
+.nav-tabs > li.active > a.liborderleft1:focus {
+	border-right: 1px solid;
+	border-color: #ddd;
 }
