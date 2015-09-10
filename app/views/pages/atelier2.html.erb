@@ -8,17 +8,17 @@
 				VOUS AVEZ CHOISI LA COLLECTION ><span class="choix"> Vie de Boheme</span>
 			</div>
 			<div class="col-md-4">
-				<div class="thumbnail thumbnail3 border-red">
+				<div class="thumbnail thumbnail3 bordered3 border-red">
 	 	   				<%= link_to (image_tag("boheme.jpg")), root_path %>
 	 	   	</div>
 	 	  </div>
  	   	<div class="col-md-4">
-	 	   	<div class="thumbnail thumbnail3">
+	 	   	<div class="thumbnail thumbnail3 bordered3">
 	 	   				<%= link_to (image_tag("illuminationdoree.jpg")), root_path %>
 	 	   	</div>
 	 	  </div>
  	   	<div class="col-md-4">
-	 	   	<div class="thumbnail thumbnail3">
+	 	   	<div class="thumbnail thumbnail3 bordered3">
 	 	   				<%= link_to (image_tag("workinggirl.jpg")), root_path %>
 	 	   	</div>
 	 	  </div>
@@ -31,13 +31,26 @@
 			<div class="col-md-12 atelier2-titre">
 				DETAILS PRATIQUES
 			</div>
+			<div class="col-md-12">
+				<div><i class="fa fa-calendar"></i>&nbsp;&nbsp;Phase de participation: 10/09/15 - 25/09/15</div>
+				<div><i class="fa fa-calendar"></i>&nbsp;&nbsp;Phase de votes: 17/09/15 - 01/10/15</div>
+			</div>
+			<div class="col-md-12 atelier2-titre5">
+				Quelques conseils:
+			</div>
+			<div class="col-md-12 nopadding">
+				<ul>
+					<li>XXX</li>
+					<li>XXX</li>
+				</ul>
+			</div>
 		</div>
 
 	</div>
 </div>
 </section>
 
-<section class="atelier2bottom">
+<section class="atelier3bottom">
 	<div class="container">
 		<div class="row padding-top-25">
 			<div class="col-md-6 col-md-offset-3 offset atelier2-titre2 text-center">
@@ -93,7 +106,7 @@
       </div>
       <div class="col-md-12 nopadding signupbouton">
 				<div class="inline">
-					<%= link_to root_path, class: "btn btn-danger btn-lg btn-panier1" do %>
+					<%= link_to root_path, class: "btn btn-danger btn-lg btn-jumbotron" do %>
 					CONTINUER
 					<% end %>
 				</div>
@@ -102,3 +115,11 @@
 	</div>
 </section>
 
+<div class="btn-group choice" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default choice2">JE PARTICIPE!</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default choice3">JE VOTE!</button>
+  </div>
+</div>
