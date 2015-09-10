@@ -14,6 +14,10 @@ Rails.application.routes.draw do
 
   get 'pages/atelier'
 
+  get 'pages/atelier2'
+
+  get 'pages/atelier3'
+
   get 'pages/studio'
 
   get 'pages/ethique'
