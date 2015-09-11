@@ -1,125 +1,143 @@
-<section class="atelier2top">
-<div class="container">
-
-	<div class="row padding-top-25">
+<section>
+	
+	<div class="container">
 		
-		<div class="col-md-8 border-right">
-			<div class="col-md-12 atelier2-titre">
-				VOUS AVEZ CHOISI LA COLLECTION ><span class="choix"> Vie de Boheme</span>
+		<div class="row padding-top-25">
+			<div class="col-md-8" style="border-right: 1px solid #DEDEDE">
+				<div class="col-md-12 text-montserrat padding-bottom-10" style="font-size:18px">
+					VOUS AVEZ CHOISI LA COLLECTION ><span class="boheme"> Vie de Boheme</span>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail theme selected-theme">
+		 	   				<%= link_to (image_tag("boheme.jpg")), root_path %>
+		 	   	</div>
+		 	  </div>
+	 	   	<div class="col-md-4">
+		 	   	<div class="thumbnail theme">
+		 	   				<%= link_to (image_tag("illuminationdoree.jpg")), root_path %>
+		 	   	</div>
+		 	  </div>
+	 	   	<div class="col-md-4">
+		 	   	<div class="thumbnail theme">
+		 	   				<%= link_to (image_tag("workinggirl.jpg")), root_path %>
+		 	   	</div>
+		 	  </div>
+		 	  <div class="col-md-12">
+		 	  	La collection Vie de Bohème ... Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum. 
+		 	  </div>
 			</div>
 			<div class="col-md-4">
-				<div class="thumbnail thumbnail3 bordered3 border-red">
-	 	   				<%= link_to (image_tag("boheme.jpg")), root_path %>
-	 	   	</div>
-	 	  </div>
- 	   	<div class="col-md-4">
-	 	   	<div class="thumbnail thumbnail3 bordered3">
-	 	   				<%= link_to (image_tag("illuminationdoree.jpg")), root_path %>
-	 	   	</div>
-	 	  </div>
- 	   	<div class="col-md-4">
-	 	   	<div class="thumbnail thumbnail3 bordered3">
-	 	   				<%= link_to (image_tag("workinggirl.jpg")), root_path %>
-	 	   	</div>
-	 	  </div>
-	 	  <div class="col-md-12">
-	 	  	La collection Vie de Bohème ... Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum. 
-	 	  </div>
-		</div>
-
-		<div class="col-md-4">
-			<div class="col-md-12 atelier2-titre">
-				DETAILS PRATIQUES
-			</div>
-			<div class="col-md-12">
-				<div><i class="fa fa-calendar"></i>&nbsp;&nbsp;Phase de participation: 10/09/15 - 25/09/15</div>
-				<div><i class="fa fa-calendar"></i>&nbsp;&nbsp;Phase de votes: 17/09/15 - 01/10/15</div>
-			</div>
-			<div class="col-md-12 atelier2-titre5">
-				Quelques conseils:
-			</div>
-			<div class="col-md-12 nopadding">
-				<ul>
-					<li>XXX</li>
-					<li>XXX</li>
-				</ul>
-			</div>
-		</div>
-
-	</div>
-</div>
-</section>
-
-<section class="atelier3bottom">
-	<div class="container">
-		<div class="row padding-top-25">
-			<div class="col-md-6 col-md-offset-3 offset atelier2-titre2 text-center">
-				Avant de proposez vos créations, complétez votre profil!
-			</div>
-			<div class="col-md-8 col-md-offset-2 padding-left-15">
-						<div class="col-md-12 nopadding form-group">
-							<div class="subtitle">Email* :</div>
-				      <input type="text" class="form-control border-connexion" placeholder=""></input>
-			      </div>
-			      <div class="col-md-6 nopadding form-group">
-							<div class="subtitle">Prénom* :</div>
-				      <input type="text" class="form-control border-connexion" placeholder=""></input>
-			      </div>
-			      <div class="col-md-6 nopadding form-group">
-							<div class="subtitle">Nom* :</div>
-				      <input type="text" class="form-control border-connexion" placeholder=""></input>
-			      </div>
-			      <div class="col-md-6 nopadding form-group">
-							<div class="subtitle">
-								<div class="col-md-6 nopadding subtitle2">Genre* :</div>
-								<div class="col-md-6 nopadding text-right subtitle2"><i class="fa fa-info-circle" data-container="body" data-toggle="popover" data-placement="top" data-content="Laissez Aglaïa & Co vous envoyer les informations les plus pertinentes pour vous!"></i></div>
-							</div>
-				      <input type="text" class="form-control border-connexion" placeholder=""></input>
-			      </div>
-			      <div class="col-md-6 nopadding form-group">
-							<div class="subtitle">
-								<div class="col-md-6 nopadding subtitle2">Date de naissance* :</div>
-								<div class="col-md-6 nopadding text-right subtitle2"><i class="fa fa-info-circle" data-container="body" data-toggle="popover" data-placement="top" data-content="Seules les personnes majeures peuvent participer au concours."></i></div>
-							</div>
-				      <input type="text" class="form-control border-connexion" placeholder=""></input>
-			      </div>
-	      <div class="col-md-6 nopadding form-group">
-					<div class="subtitle">
-						<div class="col-md-6 nopadding subtitle2">Code postal* :</div>
-						<div class="col-md-6 nopadding text-right subtitle2"><i class="fa fa-info-circle" data-container="body" data-toggle="popover" data-placement="top" data-content="Restez au courant des nouveautés de votre région!"></i></div>
-					</div>
-	      <input type="text" class="form-control border-connexion" placeholder=""></input>
-      </div>
-      <div class="col-md-6 nopadding form-group">
-					<div class="subtitle">
-						<div class="col-md-6 nopadding subtitle2">Téléphone* :</div>
-						<div class="col-md-6 nopadding text-right subtitle2"><i class="fa fa-info-circle" data-container="body" data-toggle="popover" data-placement="top" data-content="Laissez nous vous appeler pour vous annoncer votre victoire!"></i></div>
-					</div>
-	      <input type="text" class="form-control border-connexion" placeholder=""></input>
-      </div>
-      <div class="col-md-12 nopadding">
-	  		<div class="checkbox">
-			    <label>
-			      <input type="checkbox">J'accepte le <a href="">règlement du concours*</a>
-			    </label>
-			  </div>
-      </div>
-      <div class="col-md-12 nopadding signupbouton">
-				<div class="inline">
-					<%= link_to root_path, class: "btn btn-danger btn-lg btn-jumbotron" do %>
-					CONTINUER
-					<% end %>
+				<div class="col-md-12 text-montserrat padding-bottom-10" style="font-size:18px">
+					DETAILS PRATIQUES
+				</div>
+				<div class="col-md-12 padding-bottom-30">
+					<div><i class="fa fa-calendar"></i>&nbsp;&nbsp;Phase de participation: 10/09/15 - 25/09/15</div>
+					<div><i class="fa fa-calendar"></i>&nbsp;&nbsp;Phase de votes: 17/09/15 - 01/10/15</div>
+				</div>
+				<div class="col-md-12 text-merriweather padding-bottom-10" style="font-style:italic; font-size:18px;">
+					Quelques conseils:
+				</div>
+				<div class="col-md-12 no-padding">
+					<ul>
+						<li>XXX</li>
+						<li>XXX</li>
+					</ul>
 				</div>
 			</div>
 		</div>
+
 	</div>
+
 </section>
 
-<div class="btn-group choice" role="group" aria-label="...">
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default choice2">JE PARTICIPE!</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default choice3">JE VOTE!</button>
-  </div>
+<section class="margin-top-70 padding-bottom-50 padding-top-40" style="background-color:#F4F7F9">
+	
+	<div class="container">
+		
+		<div class="row padding-top-25">
+			
+			<div class="col-md-6 col-md-offset-3 text-merriweather text-center padding-bottom-20 margin-bottom-20" style="font-size:24px; font-weight:bold; border-bottom: 1px solid #DEDEDE;">
+				Avant de proposez vos créations, complétez votre profil!
+			</div>
+			
+			<div class="col-xs-12 col-sm-8 col-md-8 col-md-offset-2 margin-top-25">					
+						<form method="post" role="form">
+							<div class="row">
+								<div class="form-group col-xs-12 col-sm-6">
+									<label>Email* :</label>
+									<input type="email" class="form-control" placeholder="" name="email" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-xs-12 col-sm-6">
+									<label>Prénom* :</label>
+									<input type="text" class="form-control" placeholder="" name="first_name">
+								</div>
+								<div class="form-group col-xs-12 col-sm-6">
+									<label>Nom* :</label>
+									<input type="text" class="form-control" placeholder="" name="last_name">
+								</div>
+								<div class="form-group col-xs-12 col-sm-6">
+									<label>Genre* :</label>
+									<div style="float:right;">
+										<i class="fa fa-info-circle" data-toggle="tooltip" data-placement="left" title="Laissez aglaïa & co vous envoyer des informations les plus pertinentes pour vous"></i>
+									</div>
+									<select class="form-control" id="mySelect" name="sexe">
+										<option value=""></option>
+										<option value="female">Femme</option>
+										<option value="male">Homme</option>
+									</select>
+								</div>
+								<div class="form-group col-xs-12 col-sm-6">
+									<label>Date de naissance* :</label>
+									<div style="float:right;">
+										<i class="fa fa-info-circle" data-toggle="tooltip" data-placement="left" title="Laissez aglaïa & co vous souhaitez votre anniversaire!"></i>
+									</div>
+									<input type="text" class="form-control" name="date_of_birth" placeholder="dd/mm/yyyy">
+								</div>
+								<div class="form-group col-xs-12 col-sm-6">
+									<label>Code postal* :</label>
+									<div style="float:right;">
+										<i class="fa fa-info-circle" data-toggle="tooltip" data-placement="left" title="Soyez informé des actualités aglaïa & co dans votre région!"></i>
+									</div>
+									<input type="text" class="form-control" name="postal_code" placeholder="">
+								</div>
+								<div class="form-group col-xs-12 col-sm-6">
+									<label>Téléphone* :</label>
+									<div style="float:right;">
+										<i class="fa fa-info-circle" data-toggle="tooltip" data-placement="left" title="Laissez aglaïa & co vous prévenir en cas de victoire!"></i>
+									</div>
+									<input type="text" class="form-control" name="postal_code" placeholder="">
+								</div>
+							</div>
+							<div class="checkbox padding-top-10 padding-bottom-10 padding-right-10">
+								<label>
+									<input type="checkbox" name="rules" value="true"><em>J'accepte le <a href="" style="text-decoration:underline; color:#0074DE;">règlement du concours</a>*</em>
+								</label>
+							</div>
+							<div class="form-group col-xs-12 col-sm-6 no-padding">
+								<input type="hidden" name="sign_up" value="true">
+								<button type="submit" class="btn btn-lg btn-black margin-top-15">CONTINUER</button>							
+							</div>
+							<div class="form-group col-xs-12 col-sm-6 no-padding padding-top-30 text-right" style="color:#CCCCCC">
+							(*) Champs obligatoires
+							</div>
+						</form>
+					</div>
+
+		</div>
+	
+	</div>
+
+</section>
+
+<div class="col-md-4 col-md-offset-4 selection">
+	<div class="btn-group" role="group" aria-label="...">
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default btn-selection-on">JE PARTICIPE!</button>
+	  </div> 
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default btn-selection-off">JE VOTE!</button>
+	  </div>
+	</div>
 </div>
