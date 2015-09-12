@@ -3151,17 +3151,17 @@ a:hover {
 	padding: 70px 0 70px 0;
 }
 
-.concours .bouttonproduit1 {
+.bouttonproduit1 {
 	padding: 110px 0 20px 0;
 	text-align: center;
 }
 
-.concours .bouttonproduit2 {
+.bouttonproduit2 {
 	padding: 20px 0 20px 0;
 	text-align: center;
 }
 
-.concours .btn-product {
+.btn-product {
 	width: 200px;
 }
 
@@ -3189,7 +3189,7 @@ a:hover {
 
 .phaseout {
 	font-weight: bold;
-	color: #DEDEDE;
+	color: #CCCCCC;
 }
 
 .connexion {
@@ -4127,6 +4127,36 @@ select:not([multiple]){
 	overflow:hidden;
 }
 
+.socialbox {
+	padding:0 5px 0 0;
+	margin:0;
+	list-style-type: none;
+}
+
+.bordered4 {
+	width:400px;
+	border-radius: 0px;
+	background-color: transparent;
+	background-size: cover;
+	color: #DEDEDE;
+	padding:0;
+	margin: 0 0 10px 0;
+	position:relative;
+	overflow:hidden;
+	z-index: 2;
+}
+
+.bordered5 {
+	border-radius: 0px;
+	background-color: transparent;
+	background-size: cover;
+	color: #DEDEDE;
+	padding:0;
+	position:relative;
+	overflow:hidden;
+	z-index: 2;
+}
+
 .theme {
 	padding:0;
 	margin: 0 0 10px 0;
@@ -4216,11 +4246,11 @@ select:not([multiple]){
 	padding-top: 40px;
 }
 
-.captioncolor2 {
+.icon-dessin {
 	color:#22334D;
 }
 
-.captioncolor2:hover {
+.icon-dessin:hover {
 	color:#000000;
 }
 
@@ -4228,7 +4258,7 @@ select:not([multiple]){
 	color:#DEDEDE;
 }
 
-.border-icon {
+.icon-dessin-border {
 	border-right: 1px solid;
 	border-left: 1px solid;
 	border-color:#DEDEDE;
@@ -4292,6 +4322,128 @@ select:not([multiple]){
     width: 100%;
     padding-top: 0.3em;
     padding-right: 1.5em;
+}
+
+.circular {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	overflow: hidden;
+	margin-top: -40px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	background: no-repeat;
+	background-size: 100% 100%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.circular5 {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	overflow: hidden;
+	margin-top: -50px;
+	margin-left: 105px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	background: no-repeat;
+	background-size: 100% 100%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	max-width: 100%;
+}
+
+.circular2 {
+	width: 60px;
+	height: 60px;
+	background-color:#FFFFFF;
+	color:#F56970;
+	border-color:#F56970;
+	border: 2px solid;
+	border-radius: 30px;
+	overflow: hidden;
+	background-size: cover;
+	background-: cover;
+	margin-top: -40px;
+	margin-left: 145px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}
+
+.circular2:hover {
+	width: 60px;
+	height: 60px;
+	background-color:#F56970;
+	color:#FFFFFF;
+	border: 2px solid;
+	border-color:#F56970;
+	border-radius: 30px;
+	overflow: hidden;
+	margin-top: -40px;
+	margin-left: 145px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}
+
+.circular3 {
+	width: 60px;
+	height: 60px;
+	background-color:#FFFFFF;
+	color:#F56970;
+	border-color:#F56970;
+	border: 2px solid;
+	border-radius: 30px;
+	overflow: hidden;
+	margin-top: -40px;
+	margin-left: -45px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}
+
+.circular3:hover {
+	width: 60px;
+	height: 60px;
+	background-color:#F56970;
+	color:#FFFFFF;
+	border: 2px solid;
+	border-color:#F56970;
+	border-radius: 30px;
+	overflow: hidden;
+	margin-top: -40px;
+	margin-left: -45px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}
+
+.circular4 {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	overflow: hidden;
+	margin-top: -40px;
+	margin-left: 100px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	background: no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
 .checkbox {

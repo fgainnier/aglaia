@@ -1,54 +1,33 @@
-<div class="jumbotron jumbotron-atelier text-center">
-	<div class="jumbotron-titre">Participez à la création</br> de nos futures collections.</div>
-	</br>
-	</br>
-	</br>
-	<%= link_to root_path, class: "btn btn-danger btn-lg btn-atelier" do %>
-	PARTICIPER
-	<% end %>
-</div>
-
-<section class="atelierwork">
-<div class="container">
-	<div class="row atelier-titre text-center">
-				COMMENT ÇA MARCHE?
-	</div>
-	<div class="col-md-12">
-		<div class="col-md-4 text-center">
-			<div class="icon"><i class="fa fa-file-image-o fa-2x"></i></div>
-			<div class="titre">Proposez votre design</div>
-			<div class="texte">Proposez votre design pour la nouvelle collection en fonction de la thématique proposée</div>
-		</div>
-		<div class="col-md-4 text-center">
-			<div class="icon"><i class="fa fa-check-square-o fa-2x"></i></div>
-			<div class="titre">Participez au vote</div>
-			<div class="texte">Votez pour votre design préféré pour chacune des collections en cours de création</div>
-		</div>
-		<div class="col-md-4 text-center">
-			<div class="icon"><i class="fa fa-pencil-square-o fa-2x"></i></div>
-			<div class="titre">Devenez créatrice</div>
-			<div class="texte">La gagnante de chaque concours vient confectionner sa collection avec notre équipe de designers</div>
-		</div>
-	</div>
-</div>
-</section>
-
-<section class="citation">
+<section class="padding-top-70 padding-bottom-70" style="background-color:#F4F7F9">
 	<div class="container">
+		<div class="row text-center padding-bottom-50 text-montserrat">
+					<h2>COMMENT ÇA MARCHE?</h2>
+		</div>
 		<div class="col-md-12">
-				<div class="titre">Designers are meant to be loved, not to be understood.</div>
-				</br>
-				<div class="texte">- MARGARET OSCAR</div>
+			<div class="col-md-4 text-center">
+					<%= link_to (image_tag("draw4.png")), root_path%>
+					<div class="text-merriweather"><h4><strong>Proposez votre design</strong></h4></div>
+					<div>Proposez votre design pour la nouvelle collection en fonction de la thématique proposée</div>
+			</div>
+			<div class="col-md-4 text-center">
+					<%= link_to (image_tag("vote.png")), root_path %>
+					<div class="text-merriweather"><h4><strong>Participez au vote</strong></h4></div>
+					<div>Votez pour votre design préféré pour chacune des collections en cours de création</div>
+			</div>
+			<div class="col-md-4 text-center">
+					<%= link_to (image_tag("bracelet.png")), root_path %>
+					<div class="text-merriweather"><h4><strong>Devenez créatrice</strong></h4></div>
+					<div>La gagnante de chaque concours vient confectionner sa collection avec notre équipe de designers</div>
+			</div>
 		</div>
 	</div>
 </section>
 
-
-<section class="concours">
+<section class="padding-top-70 padding-bottom-70">
 	<div class="container">
 		<div class="col-md-12">
-			<div class="row atelier-titre text-center">
-				CHOISISSEZ VOTRE COLLECTION
+			<div class="row text-montserrat text-center padding-bottom-50">
+				<h2>CHOISISSEZ VOTRE COLLECTION</h2>
 			</div>
 			<div class="col-md-4">
 				<div class="thumbnail thumbnail3">
@@ -95,3 +74,16 @@
 		</div>
 	</div>
 </section>
+
+
+<section class="citation">
+	<div class="container">
+		<div class="row col-md-12">
+				<div class="text-merriweather" style="font-size:24px;">Designers are meant to be loved, not to be understood.</div>
+				</br>
+				<div class="text-montserrat">- MARGARET OSCAR</div>
+		</div>
+	</div>
+</section>
+
+
